@@ -1,0 +1,7 @@
+myntra\runner\package-info.class
+myntra\browser.class
+myntra\runner\TestRunner.class
+myntra\model\Product.class
+myntra\model\package-info.class
+myntra\stepdefinitions\MyntraScraperSteps.class
+stepdefinitions\package-info.class

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="myntra.runner.TestRunner" time="95.309" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="myntra.runner.TestRunner" time="105.271" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\KIIT\AppData\Local\Temp\surefire3314046094263735834\surefirebooter-20241224185456485_3.jar C:\Users\KIIT\AppData\Local\Temp\surefire3314046094263735834 2024-12-24T18-54-55_010-jvmRun1 surefire-20241224185456485_1tmp surefire_0-20241224185456485_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\KIIT\AppData\Local\Temp\surefire13375138950569729792\surefirebooter-20241225000221821_3.jar C:\Users\KIIT\AppData\Local\Temp\surefire13375138950569729792 2024-12-25T00-02-21_604-jvmRun1 surefire-20241225000221821_1tmp surefire_0-20241225000221821_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\KIIT\OneDrive\Desktop\playwright assignment\myntra\target\test-classes;C:\Users\KIIT\OneDrive\Desktop\playwright assignment\myntra\target\classes;C:\Users\KIIT\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\KIIT\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-java\4.26.0\selenium-java-4.26.0.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-api\4.26.0\selenium-api-4.26.0.jar;C:\Users\KIIT\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.26.0\selenium-chrome-driver-4.26.0.jar;C:\Users\KIIT\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.26.0\selenium-chromium-driver-4.26.0.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-json\4.26.0\selenium-json-4.26.0.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.26.0\selenium-manager-4.26.0.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.26.0\selenium-devtools-v128-4.26.0.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.26.0\selenium-devtools-v129-4.26.0.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.26.0\selenium-devtools-v130-4.26.0.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.26.0\selenium-devtools-v85-4.26.0.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.26.0\selenium-edge-driver-4.26.0.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.26.0\selenium-firefox-driver-4.26.0.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-http\4.26.0\selenium-http-4.26.0.jar;C:\Users\KIIT\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.26.0\selenium-ie-driver-4.26.0.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.26.0\selenium-remote-driver-4.26.0.jar;C:\Users\KIIT\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\KIIT\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\KIIT\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\KIIT\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\KIIT\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\KIIT\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\KIIT\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\KIIT\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\KIIT\.m2\repository\io\opentelemetry\opentelemetry-api\1.43.0\opentelemetry-api-1.43.0.jar;C:\Users\KIIT\.m2\repository\io\opentelemetry\opentelemetry-context\1.43.0\opentelemetry-context-1.43.0.jar;C:\Users\KIIT\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.43.0\opentelemetry-exporter-logging-1.43.0.jar;C:\Users\KIIT\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.43.0\opentelemetry-sdk-common-1.43.0.jar;C:\Users\KIIT\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.43.0\opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar;C:\Users\KIIT\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.43.0\opentelemetry-sdk-extension-autoconfigure-1.43.0.jar;C:\Users\KIIT\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.43.0-alpha\opentelemetry-api-incubator-1.43.0-alpha.jar;C:\Users\KIIT\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.43.0\opentelemetry-sdk-trace-1.43.0.jar;C:\Users\KIIT\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.43.0\opentelemetry-sdk-1.43.0.jar;C:\Users\KIIT\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.43.0\opentelemetry-sdk-metrics-1.43.0.jar;C:\Users\KIIT\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.43.0\opentelemetry-sdk-logs-1.43.0.jar;C:\Users\KIIT\.m2\repository\net\bytebuddy\byte-buddy\1.15.7\byte-buddy-1.15.7.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-os\4.26.0\selenium-os-4.26.0.jar;C:\Users\KIIT\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.26.0\selenium-safari-driver-4.26.0.jar;C:\Users\KIIT\.m2\repository\org\seleniumhq\selenium\selenium-support\4.26.0\selenium-support-4.26.0.jar;C:\Users\KIIT\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\KIIT\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\KIIT\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\KIIT\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\KIIT\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\KIIT\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\KIIT\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\KIIT\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\KIIT\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\KIIT\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\KIIT\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\KIIT\.m2\repository\io\cucumber\cucumber-junit\7.20.1\cucumber-junit-7.20.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\KIIT\AppData\Local\Temp\surefire3314046094263735834\surefirebooter-20241224185456485_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\KIIT\AppData\Local\Temp\surefire13375138950569729792\surefirebooter-20241225000221821_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="Scrape discounted Van Heusen T-shirts" classname="Myntra T-shirt Scraper" time="94.273">
+  <testcase name="Scrape discounted Van Heusen T-shirts" classname="Myntra T-shirt Scraper" time="104.301">
     <system-out><![CDATA[
 Scenario: Scrape discounted Van Heusen T-shirts              &amp#27;[90m# src/test/resources/features/MyntraScrapper.feature:8&amp#27;[0m
 Navigated to Myntra homepage
@@ -73,198 +73,201 @@ Successfully clicked Van Heusen checkbox
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI filter for Van Heusen brand&amp#27;[0m                          &amp#27;[90m# myntra.stepdefinitions.MyntraScraperSteps.filterVanHeusenBrand()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see a list of discounted Van Heusen T-shirts&amp#27;[0m &amp#27;[90m# myntra.stepdefinitions.MyntraScraperSteps.scrapeDiscountedTshirts()&amp#27;[0m
 
-Found 27 Van Heusen T-shirts with discounts:
+Found 32 Van Heusen T-shirts with discounts:
 
 Sorted by highest discount first:
 ----------------------------------------
 Name: Van Heusen
-Original Price: ₹669.00
-Discounted Price: ₹388.00
-Discount: 42%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/15672356/buy
-
+Original Price: 2499.00
+Discounted Price: 1249.00
+Discount: 50%
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-pockets-cotton-t-shirt/23613020/buy
 ----------------------------------------
 Name: Van Heusen
-Original Price: ₹1999.00
-Discounted Price: ₹1199.00
+Original Price: 1999.00
+Discounted Price: 999.00
+Discount: 50%
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-pure-cotton-t-shirt/26868930/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 1999.00
+Discounted Price: 1199.00
 Discount: 40%
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-striped-polo-collar-t-shirt/27736614/buy
-
 ----------------------------------------
 Name: Van Heusen
-Original Price: ₹2999.00
-Discounted Price: ₹1799.00
-Discount: 40%
-Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-short-sleeves-cotton-casual-t-shirt/29300448/buy
-
-----------------------------------------
-Name: Van Heusen
-Original Price: ₹669.00
-Discounted Price: ₹434.00
+Original Price: 2799.00
+Discounted Price: 1819.00
 Discount: 35%
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-polo-collar-applique-t-shirt/30548083/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 1999.00
+Discounted Price: 1299.00
+Discount: 35%
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-polo-collar-casual-t-shirt/30391671/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 669.00
+Discounted Price: 461.00
+Discount: 31%
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/15672356/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 669.00
+Discounted Price: 528.00
+Discount: 21%
 Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-cotton-smart-tech-easy-stain-release-t-shirt/15734676/buy
-
 ----------------------------------------
 Name: Van Heusen
-Original Price: ₹669.00
-Discounted Price: ₹434.00
-Discount: 35%
+Original Price: 669.00
+Discounted Price: 528.00
+Discount: 21%
 Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-cotton-smart-tech-easy-stain-release-t-shirt/15672476/buy
-
 ----------------------------------------
 Name: Van Heusen
-Original Price: ₹669.00
-Discounted Price: ₹434.00
-Discount: 35%
+Original Price: 669.00
+Discounted Price: 528.00
+Discount: 21%
 Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/15672870/buy
-
 ----------------------------------------
 Name: Van Heusen
-Original Price: ₹669.00
-Discounted Price: ₹441.00
-Discount: 34%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-solid-smart-tech-easy-stain-release-t-shirt/15672656/buy
-
-----------------------------------------
-Name: Van Heusen
-Original Price: ₹669.00
-Discounted Price: ₹481.00
-Discount: 28%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-solid-smart-tech-easy-stain-release-t-shirt/16202750/buy
-
-----------------------------------------
-Name: Van Heusen
-Original Price: ₹599.00
-Discounted Price: ₹485.00
+Original Price: 599.00
+Discounted Price: 485.00
 Discount: 19%
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-solid-round-neck-t-shirt/30104756/buy
-
 ----------------------------------------
 Name: Van Heusen
-Original Price: ₹599.00
-Discounted Price: ₹497.00
-Discount: 17%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-pure-cotton-lounge-tshirts/21366436/buy
-
+Original Price: 669.00
+Discounted Price: 561.00
+Discount: 16%
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-solid-smart-tech-easy-stain-release-t-shirt/15672656/buy
 ----------------------------------------
 Name: Van Heusen
-Original Price: ₹599.00
-Discounted Price: ₹497.00
-Discount: 17%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-pure-cotton-lounge-tshirt/21366402/buy
-
-----------------------------------------
-Name: Van Heusen
-Original Price: ₹599.00
-Discounted Price: ₹497.00
-Discount: 17%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-pure-cotton-lounge-tshirts/21366428/buy
-
-----------------------------------------
-Name: Van Heusen
-Original Price: ₹599.00
-Discounted Price: ₹497.00
-Discount: 17%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-pure-cotton-lounge-tshirt/21366418/buy
-
-----------------------------------------
-Name: Van Heusen
-Original Price: ₹629.00
-Discounted Price: ₹522.00
-Discount: 17%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-solid-crew-neck-short-sleeve-t-shirt/21366406/buy
-
-----------------------------------------
-Name: Van Heusen
-Original Price: ₹599.00
-Discounted Price: ₹497.00
-Discount: 17%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-crew-neck-short-sleeve-t-shirt/21366412/buy
-
-----------------------------------------
-Name: Van Heusen
-Original Price: ₹629.00
-Discounted Price: ₹522.00
-Discount: 17%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-solid-crew-neck-short-sleeve-t-shirt/21366432/buy
-
-----------------------------------------
-Name: Van Heusen
-Original Price: ₹629.00
-Discounted Price: ₹522.00
-Discount: 17%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-solid-crew-neck-short-sleeve-t-shirt/21366430/buy
-
-----------------------------------------
-Name: Van Heusen
-Original Price: ₹1299.00
-Discounted Price: ₹1104.00
-Discount: 15%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-green-solid-varsity-inspired-short-sleeve-polo-t-shirt/15672294/buy
-
-----------------------------------------
-Name: Van Heusen
-Original Price: ₹1149.00
-Discounted Price: ₹976.00
-Discount: 15%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-pure-cotton-slim-fit-quick-dry-polo-t-shirt/15672480/buy
-
-----------------------------------------
-Name: Van Heusen
-Original Price: ₹1149.00
-Discounted Price: ₹976.00
-Discount: 15%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-men-solid-colour-fresh-quick-dry-polo-t-shirt/15672698/buy
-
-----------------------------------------
-Name: Van Heusen
-Original Price: ₹399.00
-Discounted Price: ₹347.00
+Original Price: 399.00
+Discounted Price: 347.00
 Discount: 13%
 Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-moisture-wicking-ultra-soft-vest/10548342/buy
-
 ----------------------------------------
 Name: Van Heusen
-Original Price: ₹629.00
-Discounted Price: ₹553.00
+Original Price: 669.00
+Discounted Price: 588.00
 Discount: 12%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-solid-crew-neck-short-sleeve-t-shirt/21366410/buy
-
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-solid-smart-tech-easy-stain-release-t-shirt/16202750/buy
 ----------------------------------------
 Name: Van Heusen
-Original Price: ₹1149.00
-Discounted Price: ₹1011.00
-Discount: 12%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-colour-fresh-moisture-wicking-polo-t-shirt/15672296/buy
-
-----------------------------------------
-Name: Van Heusen
-Original Price: ₹689.00
-Discounted Price: ₹606.00
+Original Price: 689.00
+Discounted Price: 606.00
 Discount: 12%
 Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-solid-smart-tech-easy-stain-release-pure-cotton-lounge-t-shirt/15381790/buy
-
 ----------------------------------------
 Name: Van Heusen
-Original Price: ₹669.00
-Discounted Price: ₹588.00
+Original Price: 669.00
+Discounted Price: 588.00
 Discount: 12%
 Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-solid-smart-tech-easy-stain-release-pure-cotton-lounge-t-shirt/15381440/buy
-
 ----------------------------------------
 Name: Van Heusen
-Original Price: ₹799.00
-Discounted Price: ₹703.00
-Discount: 12%
-Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-men-solid-pure-cotton-antibacterial-smart-tech-t-shirt/15672268/buy
-
-----------------------------------------
-Name: Van Heusen
-Original Price: ₹669.00
-Discounted Price: ₹588.00
+Original Price: 669.00
+Discounted Price: 588.00
 Discount: 12%
 Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-men-solid-smart-tech-easy-stain-release-t-shirt/15672282/buy
-
+----------------------------------------
+Name: Van Heusen
+Original Price: 669.00
+Discounted Price: 588.00
+Discount: 12%
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-athleisure-solid-smart-tech-easy-stain-release-t-shirt/10779876/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 599.00
+Discounted Price: 533.00
+Discount: 11%
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-crew-neck-short-sleeve-t-shirt/21366412/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 2799.00
+Discounted Price: 2519.00
+Discount: 10%
+Link: https://www.myntra.com/tshirts/van+heusen/van-heusen-men-floral-printed-polo-collar-pockets-t-shirt/31598656/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 599.00
+Discounted Price: 563.00
+Discount: 6%
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-pure-cotton-lounge-tshirt/21366402/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 599.00
+Discounted Price: 563.00
+Discount: 6%
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-pure-cotton-lounge-tshirts/21366428/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 629.00
+Discounted Price: 591.00
+Discount: 6%
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-solid-crew-neck-short-sleeve-t-shirt/21366410/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 599.00
+Discounted Price: 563.00
+Discount: 6%
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-pure-cotton-lounge-tshirt/21366418/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 629.00
+Discounted Price: 591.00
+Discount: 6%
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-solid-crew-neck-short-sleeve-t-shirt/21366406/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 1149.00
+Discounted Price: 1080.00
+Discount: 6%
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-colour-fresh-moisture-wicking-polo-t-shirt/15672296/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 1149.00
+Discounted Price: 1080.00
+Discount: 6%
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-pure-cotton-slim-fit-quick-dry-polo-t-shirt/15672480/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 629.00
+Discounted Price: 591.00
+Discount: 6%
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-solid-crew-neck-short-sleeve-t-shirt/21366432/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 629.00
+Discounted Price: 591.00
+Discount: 6%
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-solid-crew-neck-short-sleeve-t-shirt/21366430/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 799.00
+Discounted Price: 751.00
+Discount: 6%
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-men-solid-pure-cotton-antibacterial-smart-tech-t-shirt/15672268/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 599.00
+Discounted Price: 593.00
+Discount: 1%
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-pure-cotton-lounge-tshirts/21366436/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 1299.00
+Discounted Price: 1286.00
+Discount: 1%
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-men-green-solid-varsity-inspired-short-sleeve-polo-t-shirt/15672294/buy
+----------------------------------------
+Name: Van Heusen
+Original Price: 1149.00
+Discounted Price: 1137.00
+Discount: 1%
+Link: https://www.myntra.com/lounge-tshirts/van+heusen/van-heusen-athleisure-men-solid-colour-fresh-quick-dry-polo-t-shirt/15672698/buy
 ----------------------------------------
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe T-shirts should be sorted by discount percentage&amp#27;[0m   &amp#27;[90m# myntra.stepdefinitions.MyntraScraperSteps.displaySortedResults()&amp#27;[0m
 ]]></system-out>

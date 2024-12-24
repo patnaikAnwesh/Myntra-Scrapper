@@ -16,13 +16,19 @@ import java.time.Duration;
 import java.util.*;
 
 public class MyntraScraperSteps {
+    // WebDriver instance to control the browser
     private WebDriver driver;
+    // WebDriverWait instance for managing waits
     private WebDriverWait wait;
+    // JavascriptExecutor for executing JavaScript commands
     private JavascriptExecutor js;
+    // List to store product details
     private List<Product> products;
+    // Constants for timeout durations
     private static final Duration WAIT_TIMEOUT = Duration.ofSeconds(20);
     private static final Duration SCROLL_PAUSE = Duration.ofSeconds(2);
 
+    // Setup method to initialize WebDriver and related components
     @Before
     public void setup() {
         driver = new FirefoxDriver();
@@ -32,6 +38,7 @@ public class MyntraScraperSteps {
         products = new ArrayList<>();
     }
 
+    // Teardown method to close the browser after tests
     @After
     public void tearDown() {
         if (driver != null) {
@@ -39,6 +46,7 @@ public class MyntraScraperSteps {
         }
     }
 
+    // Step to navigate to Myntra homepage
     @Given("I am on the Myntra homepage")
     public void navigateToMyntra() throws InterruptedException {
         driver.get("https://www.myntra.com/");
@@ -46,6 +54,7 @@ public class MyntraScraperSteps {
         System.out.println("Navigated to Myntra homepage");
     }
 
+    // Step to hover over the Men category
     @When("I hover over the Men category")
     public void hoverOverMenCategory() {
         for (int i = 0; i < 3; i++) {
@@ -62,6 +71,7 @@ public class MyntraScraperSteps {
         }
     }
 
+    // Step to click on T-shirts section
     @And("I click on T-shirts section")
     public void clickTshirtsSection() throws InterruptedException {
         for (int i = 0; i < 3; i++) {
@@ -78,6 +88,7 @@ public class MyntraScraperSteps {
         Thread.sleep(3000);
     }
 
+    // Step to filter products by Van Heusen brand
     @And("I filter for Van Heusen brand")
     public void filterVanHeusenBrand() throws InterruptedException {
         clickSearchIcon();
@@ -92,6 +103,7 @@ public class MyntraScraperSteps {
         Thread.sleep(3000);
     }
 
+    // Helper method to click the search icon
     private void clickSearchIcon() throws InterruptedException {
         String[] searchIconSelectors = {
             "//span[text()='Brand']/parent::div//span[contains(@class, 'myntraweb-sprite') or contains(@class, 'filter-search-filterSearchIcon')]",
@@ -121,6 +133,7 @@ public class MyntraScraperSteps {
         throw new RuntimeException("Failed to click search icon with all attempted selectors");
     }
 
+    // Helper method to click Van Heusen checkbox
     private void clickVanHeusenCheckbox() throws InterruptedException {
         String[] checkboxSelectors = {
             "//label[contains(., 'Van Heusen')]//div[contains(@class, 'common-checkboxIndicator')]",
@@ -150,6 +163,7 @@ public class MyntraScraperSteps {
         throw new RuntimeException("Failed to click Van Heusen checkbox with all attempted selectors");
     }
 
+    // Step to scrape discounted T-shirts
     @Then("I should see a list of discounted Van Heusen T-shirts")
     public void scrapeDiscountedTshirts() throws InterruptedException {
         long lastHeight = 0;
@@ -197,6 +211,7 @@ public class MyntraScraperSteps {
         }
     }
 
+    // Step to display sorted products
     @And("the T-shirts should be sorted by discount percentage")
     public void displaySortedResults() {
         Collections.sort(products);
@@ -211,6 +226,7 @@ public class MyntraScraperSteps {
         }
     }
 
+    // Helper method to extract prices from a product card
     private Double[] extractPrices(WebElement card) {
         try {
             String discountedPriceText = extractPrice(card, new String[]{
@@ -238,6 +254,7 @@ public class MyntraScraperSteps {
         return null;
     }
 
+    // Helper method to extract a price based on provided selectors
     private String extractPrice(WebElement card, String[] selectors) {
         for (String selector : selectors) {
             try {
@@ -253,6 +270,7 @@ public class MyntraScraperSteps {
         return null;
     }
 
+    // Helper method to calculate discount percentage
     private int calculateDiscount(double originalPrice, double discountedPrice) {
         return (int) Math.round(((originalPrice - discountedPrice) / originalPrice) * 100);
     }
